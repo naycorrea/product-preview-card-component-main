@@ -19,6 +19,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Mobile
 
+
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="Mobile Layout" title="#mobile" src="/Screenshoots/mobile.png" width="200px">
 </p>
