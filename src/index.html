@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+  <link href="/dist/output.css" rel="stylesheet" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet" />
+  
+  <title>Frontend Mentor | Product preview card component</title>
+</head>
+<body class="w-body h-body">
+  <div class="w-full h-container flex justify-center items-center bg-background">
+    <div class="cardMobile sm:cardDesktop rounded-lg">
+      <div class="imageMobile sm:imageDesktop"></div>
+      <div class="cardBodyMobile sm:cardBodyDesktop p-cardContainer">
+        <span class="textMobile sm:text-xs">PERFUME</span>
+
+        <span class="titleMobile sm:titleDesktop ">Gabrielle Essence Eau De Parfum</span>
+
+        <p class="descriptionMobile sm:descriptionDesktop ">
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.</p>
+
+        <div class="flex flex-row">
+          <div>
+            <span class="priceMobile sm:text-2xl ">$149.99</span>
+          </div>
+          <div class="pl-6">
+            <span class="textMobile sm:text-xs line-through">$169.99</span>
+          </div>
+        </div>
+        
+        <button class="buttonMobile sm:buttonDesktop ">
+          <img src="/images/icon-cart.svg" class="mr-3" /> Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="footer">
+    <span class="text-xs">
+      Challenge by <a class="link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a class="link" href="https://github.com/naycorrea">Nayara Corrêa</a>.
+    </span>
+  </div>
+</body>
+</html>

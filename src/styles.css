@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    /* Mobile */
+
+    .cardMobile {
+        @apply bg-white w-cardMobile h-cardMobile;
+    }
+
+    .imageMobile {
+        @apply bg-image-mobile w-full h-2/5 bg-cover bg-no-repeat bg-center rounded-t-lg;
+    }
+
+    .cardBodyMobile {
+        @apply w-full h-3/5 rounded-b-lg flex justify-between flex-col;
+    }
+
+    .textMobile {
+        @apply font-montserrat font-medium text-fontSmall;
+    }
+
+    .titleMobile {
+        @apply text-3xl font-fraunces text-fontLarge;
+    }
+
+    .descriptionMobile {
+        @apply text-sm font-montserrat font-medium text-fontSmall;
+    }
+
+    .priceMobile {
+        @apply font-fraunces font-bold text-3xl text-green
+    }
+
+    .buttonMobile {
+        @apply h-11 font-montserrat font-bold bg-green rounded-lg text-white flex flex-row justify-center items-center;
+    }
+
+
+    /* Desktop */
+
+    .cardDesktop {
+        @apply bg-white w-cardDesktop h-cardDesktop flex flex-row;
+    }
+
+    .cardBodyDesktop {
+        @apply w-full h-full rounded-b-lg flex justify-between flex-col;
+    }
+
+
+    .imageDesktop {
+        @apply bg-image-desktop w-full h-full bg-cover bg-no-repeat bg-center rounded-l-lg rounded-tr-none;
+    }
+
+    .titleDesktop {
+        @apply text-titleSM;
+    }
+
+    .descriptionDesktop {
+        @apply text-xs;
+    }
+
+    .buttonDesktop {
+        @apply h-9 text-xs;
+    }
+
+    .footer {
+        @apply flex w-footer h-footer justify-center items-center;
+    }
+
+    .link {
+        @apply text-purple-700 underline;
+    }
+}
