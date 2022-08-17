@@ -15,7 +15,12 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="Desktop Layout" title="#desktop" src="/Screenshoots/desktop.png" width="400px">
+</p>
 
+### Mobile
+
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="Mobile Layout" title="#mobile" src="/Screenshoots/mobile.png" width="200px">
 </p>
 
@@ -32,21 +37,21 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 ```bash
 
 # Clone este repositório
-$ git clone git@github.com:naycorrea/moveit-next.git
+$ git clone git@github.com:naycorrea/product-preview-card-component-main.git
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd moveit-next
+$ cd product-preview-card-component-main
 
 # Vá para a pasta da aplicação Front End
-$ cd moveit-next
+$ cd product-preview-card-component-main
 
 # Instale as dependências
 $ npm install ou yarn install
 
 # Execute a aplicação em modo de desenvolvimento
-$ npm run dev ou yarn dev
+$ npm run start
 
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+# Para rodar a aplicação utilize a extensão Live Server do VSCode
 
 ```
 
@@ -57,7 +62,7 @@ As seguintes ferramentes foram usadas na construção do projeto:
 - **[Tailwindcss](https://pt-br.reactjs.org/)**
 - **[Node.js](https://nodejs.org/en/)**
 
-> Veja o arquivo [package.json](https://github.com/nayaracorrea/moveit-next/blob/main/package.json)
+> Veja o arquivo [package.json](https://github.com/naycorrea/product-preview-card-component-main/blob/master/package.json)
 
 ## 💪 Como contribuir para o projeto
 
