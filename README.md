@@ -16,7 +16,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="Desktop Layout" title="#desktop" src="/Screenshoots/desktop.png" width="400px">
 
-  <img alt="Mobile Layout" title="#mobile" src="/Screenshoots/mobile.png" width="400px">
+  <img alt="Mobile Layout" title="#mobile" src="/Screenshoots/mobile.png" width="200px">
 </p>
 
 ## 🚀 Como executar o projeto
